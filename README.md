@@ -1,16 +1,82 @@
-# React + Vite
+# Persistent & Interactive Todo List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a modern Todo List web application designed to help users manage tasks effectively. The application focuses on **data persistence**, **clear task status visualization**, and **controlled task editing**, ensuring a clean and intuitive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+### ✓ Add Todo
+- Add a new todo using the input field
+- Todo instantly appears in the todo table/list
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✓ Persistent Storage
+- Todos are stored using **localStorage**
+- Tasks do not disappear on page refresh
 
-## Expanding the ESLint configuration
+### ✓ Task Completion
+- Each todo has a checkbox
+- On checking:
+  - Background changes from **purple (pending)** to **green (completed)**
+  - Text is struck through with a line to indicate completion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✓ Edit Todo
+- Edit button available for **pending todos only**
+- Users can modify the todo text and save changes
+- Completed todos **cannot be edited**
+
+### ✓ Delete Todo
+- Delete button allows removing any todo
+- Todo is permanently removed from UI and localStorage
+
+### ✓ Edit Restriction Logic
+- Once a todo is marked as completed:
+  - Edit button is disabled or hidden
+  - Prevents accidental modification of finished tasks
+
+---
+
+## Visual Indicators
+- **Purple background** → Pending task  
+- **Green background** → Completed task  
+- **Strike-through text** → Task completed  
+
+---
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Browser Local Storage (localStorage API)
+
+---
+
+## How It Works
+1. User adds a todo
+2. Todo is saved in localStorage
+3. UI updates dynamically
+4. Checkbox toggles completion state
+5. Edit/Delete actions update both UI and storage
+
+---
+
+## Use Case
+- Daily task management
+- Practice project for JavaScript, DOM manipulation, and localStorage
+- Beginner-friendly CRUD-based frontend project
+
+---
+
+## Project Highlights
+- No backend required
+- Fully client-side
+- Clean UX with clear task states
+- Logical constraints for better data integrity
+
+---
+
+## Future Enhancements (Optional)
+- Filter completed / pending todos
+- Due dates and priority levels
+- Drag and drop reordering
