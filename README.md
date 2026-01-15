@@ -37,9 +37,9 @@ This is a modern Todo List web application designed to help users manage tasks e
 
 ---
 ## Preview
-  # Add a Todo
+  ### Add a Todo
 <img width="1518" height="827" alt="image" src="https://github.com/user-attachments/assets/af99700b-5074-4347-879d-c601e1faa19b" />
- ## Edit a Todo
+  ### Edit a Todo
 <img width="1513" height="855" alt="image" src="https://github.com/user-attachments/assets/90c9b616-f40a-4e33-88e6-8893107bfd07" />
 <img width="1513" height="855" alt="image" src="https://github.com/user-attachments/assets/5b559f17-aab9-4acf-8d6f-186eb367c830" />
 <img width="1518" height="852" alt="image" src="https://github.com/user-attachments/assets/24f1721b-0e57-42be-adb0-b9c777b2893b" />
