@@ -26,15 +26,21 @@ function TodoItem({ todo }) {
               checked={todo.completed}
               onChange={toggleCompleted}
           />
-          <input
-              type="text"
-              className={`border outline-none w-full bg-transparent rounded-lg ${
-                  isTodoEditable ? "border-black/10 px-2" : "border-transparent"
-              } ${todo.completed ? "line-through decoration-1 decoration-black-700" : ""}`}
-              value={todoMsg}
-              onChange={(e) => setTodoMsg(e.target.value)}
-              readOnly={!isTodoEditable}
-          />
+         <input
+  type="text"
+  className={`w-full bg-transparent rounded-lg border outline-none
+    ${
+      isTodoEditable
+        ? "border-black/10 px-2 focus:ring-2 focus:ring-black-600 caret-black cursor-text"
+        : "border-transparent focus:ring-0 caret-transparent cursor-default"
+    }
+    ${todo.completed ? "line-through decoration-1 decoration-black-700" : ""}
+  `}
+  value={todoMsg}
+  onChange={(e) => setTodoMsg(e.target.value)}
+  readOnly={!isTodoEditable}
+/>
+
           {/* Edit, Save Button */}
           <button
               className="inline-flex w-8 h-8 rounded-lg text-sm border border-black/10 justify-center items-center bg-gray-50 hover:bg-gray-100 shrink-0 disabled:opacity-50 cursor-pointer"
