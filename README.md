@@ -36,24 +36,6 @@ This is a modern Todo List web application designed to help users manage tasks e
   - Prevents accidental modification of finished tasks
 
 ---
-## Preview
-
-### Add a Todo
-
-<img width="1518" height="827" alt="image" src="https://github.com/user-attachments/assets/af99700b-5074-4347-879d-c601e1faa19b" />
-
-### Edit a Todo
-
-<img width="1513" height="855" alt="image" src="https://github.com/user-attachments/assets/90c9b616-f40a-4e33-88e6-8893107bfd07" />
-
-### CheckBox when todo completed
-<img width="1518" height="849" alt="image" src="https://github.com/user-attachments/assets/75837c51-c753-4f09-99c9-6f654c0af587" />
-
-### Delete a todo
-<img width="1518" height="852" alt="image" src="https://github.com/user-attachments/assets/24f1721b-0e57-42be-adb0-b9c777b2893b" />
-
-
----
 
 ## Visual Indicators
 - **Purple background** → Pending task  
@@ -76,6 +58,25 @@ This is a modern Todo List web application designed to help users manage tasks e
 3. UI updates dynamically
 4. Checkbox toggles completion state
 5. Edit/Delete actions update both UI and storage
+
+---
+
+## Preview
+
+### Add a Todo
+
+<img width="1518" height="827" alt="image" src="https://github.com/user-attachments/assets/af99700b-5074-4347-879d-c601e1faa19b" />
+
+### Edit a Todo
+
+<img width="1513" height="855" alt="image" src="https://github.com/user-attachments/assets/90c9b616-f40a-4e33-88e6-8893107bfd07" />
+
+### CheckBox when todo completed
+<img width="1518" height="849" alt="image" src="https://github.com/user-attachments/assets/75837c51-c753-4f09-99c9-6f654c0af587" />
+
+### Delete a todo
+
+<img width="1518" height="852" alt="image" src="https://github.com/user-attachments/assets/24f1721b-0e57-42be-adb0-b9c777b2893b" />
 
 ---
 
