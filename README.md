@@ -1,4 +1,4 @@
-# Persistent & Interactive Todo List Application
+# Persistent & Interactive Todo List Application.
 
 ## Overview
 This is a modern Todo List web application designed to help users manage tasks effectively. The application focuses on **data persistence**, **clear task status visualization**, and **controlled task editing**, ensuring a clean and intuitive user experience.
